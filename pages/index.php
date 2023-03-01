@@ -73,7 +73,7 @@ $sp = new SaeedPoureshghi();
 echo 'I am '.$sp->Age().' and an '.$sp->getNationality();
 
 //output
-<?
+<?php
 $sp = new Saeed();
 
 echo 'I am '.$sp->Age().' and an '.$sp->getNationality();
@@ -93,7 +93,7 @@ $result .= ' and an '.$sp->getNationality();
 echo $result;
 
 //output
-<?
+<?php
 $sp = new Saeed();
 
 $result  = 'I am '.$sp->Age();
