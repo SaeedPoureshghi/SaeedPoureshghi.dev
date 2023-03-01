@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
+
+.content {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* margin: 50px 300px; */
+    /* border:1px solid black; */
+    min-height: 100vh;
+    ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+.title {
+    display: flex;
+}
+
+.title .maintitle {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #0187de;
+    flex: 1
+}
+.maintitle h1{display: none;}
+
+.title p {
+    margin: 0;
+}
+
+.title ._title {
+    font-size: 40px;
+}
+
+.title ._slog {
+    font-style: italic;
+    font-size: 18px;
+    padding: 5px 0;
+    letter-spacing: 2px;
+}
+
+.title .qoute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 0 40px;
+}
+
+.title .qoute p {
+    font-weight: 300;
+}
+
+hr {
+    background-color: #d5d6d6;
+    border: none;
+    height: 1px;
+}
+
+.sections {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    padding: 0 20px
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 20px
+}
+
+.border {
+    border-left: 1px solid #d5d6d6;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: -21px
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    position: relative;
+}
+
+.stitle {
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+.stitle span {
+    color: #0187de;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section .icon-heading {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -29px
+}
+
+.section .icon-heading2 {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -29px
+}
+
+.section .icon1, .section .icon2 {
+    fill: #0187de
+}
+
+.meta {
+    padding: 5px 0
+}
+
+.meta .a {
+    font-weight: 300;
+}
+
+.skill {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sktitle {
+    flex: 1;
+}
+
+.svg {
+    width: 50px;
+    display: inline-block;
+
+}
+
+.svg span {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+svg .rating {
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+.history {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.history .htime {
+    font-size: 14px;
+    min-width: 100px;
+}
+
+.history .hdesc {
+    flex: 1;
+    padding: 0 20px
+}
+
+.history .hdesc_title {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.history .hdesc_employ {
+    font-style: italic;
+    line-height: 30px;
+}
+
+.history .hdesc_desc {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.history a {
+    text-decoration: none;
+    color: black
+}
+
+.history a:visited {
+    color: black;
+}
+
+.history a:active {
+    color: black;
+}
+
+
+@media screen and (max-width:1199px) {
+
+    .content{
+        margin:5px;
+    }
+
+    .title{
+        flex-direction: column;
+    }
+
+    .sections{
+        flex-direction: column;
+    }
+    .history .htime{min-width:70px}
+    .hdesc_desc{text-align: justify;}
+    .hdesc_title{white-space: normal;}   
+    .stitle svg{display: none;}
+}
