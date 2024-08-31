@@ -117,37 +117,48 @@ echo $result;
         </div>
 
         <div class="desc">
-            <div>
-                <h1>
-                    Hi, I am <strong>Saeed Poureshghi</strong>
-                </h1>
+            <div class="titles">
+
+                <div>
+                    <h1>
+                        Hi, I am <strong>Saeed Poureshghi</strong>
+                    </h1>
+                </div>
+                <div>
+                    <p>
+                        I am a full stack developer!
+                    </p>
+                </div>
+                <div class="sidemenu">
+                    
+                    <ul>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/saeedpoureshghi/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://github.com/SaeedPoureshghi"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a target="_blank" href="https://www.amazon.com/s?i=mobile-apps&rh=p_4%3ASaeed+Poureshghi+Oskouei&search-type=ss"><i class="fa-brands fa-amazon"></i></a></li>
+                        <li><a target="_blank" href="https://play.google.com/store/apps/dev?id=8790407111857864796"><i class="fa-brands fa-google-play"></i></a></li>
+                        <li><a target="_blank" href="mailto:saeed.po@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sidemenu">
+                    <ul>
+                    <li><a href="https://saeedpoureshghi.dev/">Farsi</a></li>
+                        <li><a href="https://saeedpoureshghi.dev/resume">Resume</a></li>
+                    </ul>
+                </div>
+                
             </div>
-            <div>
-                <p>
-                    I am a full stack developer!
-                </p>
+
+
+            <div class="icons">
+
+                <div>
+                    <p>All Rights Reserved <?php echo date("Y") ?></p>
+                </div>
             </div>
-
-
-            <div class="sidemenu">
-
-                <ul>
-                    <li><a target="_blank" href="https://twitter.com/BTCFuture_"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/in/saeedpoureshghi/"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a target="_blank" href="https://github.com/SaeedPoureshghi"><i class="fa-brands fa-github"></i></a></li>
-
-                    <li><a target="_blank" href="mailto:saeed.po@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
-                    <li><a href="https://saeedpoureshghi.dev">FA</a></li>
-                    <li><a href="https://saeedpoureshghi.dev/resume">CV</a></li>
-
-
-
-                </ul>
-            </div>
-            <div class="googleplay">
+            <!-- <div class="googleplay">
                 <a href="https://play.google.com/store/apps/dev?id=8790407111857864796"><img src="/assets/googleplay.png" width="200" height="59" alt="google play" /></a>
                 <a href="https://www.amazon.com/s?i=mobile-apps&rh=p_4%3ASaeed+Poureshghi+Oskouei&search-type=ss"><img src="/assets/amazon.png" width="200" height="59" alt="google play" /></a>
-            </div>
+            </div> -->
 
         </div>
     </div>
