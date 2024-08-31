@@ -27,18 +27,15 @@
     <link rel="stylesheet" href="../assets//default.min.css">
     <script  src="../assets//highlight.min.js"></script>
     <title>سعید پورعشقی اسکویی :: یک برنامه نویس وب کریپتو باز</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVYM9DTP6G"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F55VNV44HV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-FVYM9DTP6G');
-    </script>
+  gtag('config', 'G-F55VNV44HV');
+</script>
 </head>
 
 <body class="farsi">
