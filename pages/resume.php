@@ -150,7 +150,7 @@
     <div class="projects">
         <p><strong>ProRata - Crypto Asset Distribution Platform</strong> (React.js, Web3.js, Solidity, Node.js)</p>
         <ul>
-            <li>Developed dApp for fair crypto asset distribution, handling $5M+ in distributions</li>
+            <li>Developed dApp for fair crypto asset distribution</li>
             <li>Integrated MetaMask and WalletConnect, increasing user accessibility by 60%</li>
         </ul>
     </div>
@@ -158,8 +158,8 @@
     <div class="projects">
         <p><strong>inWallet - Decentralized Crypto Wallet</strong> (React Native, Web3.js, Solidity)</p>
         <ul>
-            <li>Built secure mobile wallet supporting multiple blockchains</li>
-            <li>Achieved 50,000+ downloads with 4.7-star rating</li>
+            <li>Built secure mobile wallet supporting BNB blockchain</li>
+            
         </ul>
     </div>
 
