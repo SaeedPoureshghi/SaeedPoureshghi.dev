@@ -129,7 +129,7 @@ echo $result;
                 <div class="sidemenu">
 
                     <ul>
-                        <li><a target="_blank" href="https://blog.saeedpoureshghi.dev/"><i class="fa-solid fa-blog"></i></a></li>
+                        
                         <li><a target="_blank" href="https://www.linkedin.com/in/saeedpoureshghi/"><i class="fa-brands fa-linkedin"></i></a></li>
                         <li><a target="_blank" href="https://github.com/SaeedPoureshghi"><i class="fa-brands fa-github"></i></a></li>
                         <li><a target="_blank" href="https://www.amazon.com/s?i=mobile-apps&rh=p_4%3ASaeed+Poureshghi+Oskouei&search-type=ss"><i class="fa-brands fa-amazon"></i></a></li>
